@@ -1,0 +1,42 @@
+﻿@model MVC.Models.ProductsView
+
+@{
+    ViewBag.Title = "Products page";
+}
+
+@using (Html.BeginForm("InsertEdit", "Products", FormMethod.Post, new { @class = "formulario" }))
+{
+    @Html.HiddenFor(Model => Model.Id)
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3><label></label>Product 🛠</h3>
+        </div>
+        <div class="panel-body">
+            <div class="panel panel-info formulario-panel">
+                <div class="panel-heading">Enter data</div>
+                <div class="panel-body">
+                    <div>
+                        <div>
+                            <label class="text">Product name: </label>
+                            @Html.TextBoxFor(p => p.Name, "", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(p => p.Name, null, new { @class = "text-danger txtProduct" })
+                        </div>
+                        <div>
+                            <label>Quantity per unit: </label>
+                            @Html.TextBoxFor(p => p.QuantityPerUnit, "", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(p => p.QuantityPerUnit, null, new { @class = "text-danger txtProduct" })
+                        </div>
+                        <div>
+                            <label>Price: </label>
+                            @Html.TextBoxFor(p => p.Price, "", new { @class = "form-control", id= "txtPrice" })
+                            @*@Html.TextBoxFor(p => p.Price, "", new { @class = "form-control", Value = String.Format("{0:0.##}", Model.Price) })*@
+                            @Html.ValidationMessageFor(p => p.Price, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <input type="submit" id="btnCrearProducto" class="btn btn-primary" value="Save" />
+    @Html.ActionLink("Cancel", "Index", "Products", 0, new { @class = "btn btn-danger" })
+}

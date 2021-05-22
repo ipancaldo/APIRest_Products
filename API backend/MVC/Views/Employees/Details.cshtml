@@ -1,0 +1,46 @@
+﻿@model MVC.Models.EmployeesView
+
+@{
+    ViewBag.Title = "Products page";
+}
+
+@using (Html.BeginForm("Details", "Employees", FormMethod.Post, new { @class = "formulario" }))
+{
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3>Employee info 👷‍</h3>
+        </div>
+        <div class="panel-body">
+            <div class="panel panel-info formulario-panel">
+                    <div class="panel-heading">Lastname</div>
+                    <div class="panel-body">
+                        @Html.DisplayFor(e => e.Lastname)
+                    </div>                  
+                    
+                    <div class="panel-heading">Name</div>
+                    <div class="panel-body">
+                        @Model.FirstName
+                    </div>                    
+
+                    <div class="panel-heading">Hire date</div>
+                    <div class="panel-body">
+                        @Model.HireDate.ToString("dd'/'MM'/'yyyy")
+                    </div>                          
+                    
+                    <div class="panel-heading">Birthday</div>
+                    <div class="panel-body">
+                        @Model.BirthDate.ToString("dd'/'MM'/'yyyy")
+                    </div>                    
+                    
+                    <div class="panel-heading">Phone</div>
+                    <div class="panel-body">
+                        @Model.HomePhone
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        @Html.ActionLink("Back", "Index", "Employees", new { @class = "btn btn-primary" })
+    </div>
+}
+

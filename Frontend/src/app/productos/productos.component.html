@@ -1,0 +1,49 @@
+<section class="container-fluid banner mt-2 mb-3">
+  <div class="row justify-content-center">
+    <div class="col-6 pt-5 pb-5">
+      <h1 class="frase-texto">Productos</h1>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <!-- BOTÓN AGREGAR -->
+  <button mat-raised-button color="primary" (click)="btnAgregarProducto()">Agregar producto</button>
+  <a class="nav-link" href="/producto"></a>
+    <table class="table table-hover table-striped">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">id</th>
+            <th scope="col">Nombre producto</th>
+            <th scope="col">Cant. por unidad</th>
+            <th scope="col">Precio</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of products" >
+            <th scope="row">{{product.Id}}</th>
+            <td>{{product.Name}}</td>
+            <td>{{product.QuantityPerUnit}}</td>
+            <td>$ {{product.Price}}</td>
+            <td>
+              <!-- BOTÓN EDITAR -->
+              <a class="nav-link" (click)="editarProducto(product.Id)">
+                <i class="fas fa-edit icon"></i>
+                <span class="sr-only"></span>
+              </a>
+            </td>
+            <td>
+              <!-- BOTÓN ELIMINAR -->
+              <a class="nav-link" (click)='eliminarProducto(product.Id)'>
+                <!-- NO FUNCIONA -->
+              <!-- <a class="nav-link" (click)='confirmarEliminar("Advertencia", "Realmente desea eliminar el producto " + product.Name + "?", product.Id)'> -->
+                <i class="far fa-trash-alt icon text-danger"></i>
+                <span class="sr-only"></span>
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+</div>

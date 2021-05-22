@@ -1,0 +1,15 @@
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\bin\Debug\Data.dll.config
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\bin\Debug\Data.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\bin\Debug\Data.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\bin\Debug\Entities.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\bin\Debug\EntityFramework.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\bin\Debug\Entities.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\bin\Debug\Entities.dll.config
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\bin\Debug\EntityFramework.xml
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\obj\Debug\Data.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\obj\Debug\Data.pdb

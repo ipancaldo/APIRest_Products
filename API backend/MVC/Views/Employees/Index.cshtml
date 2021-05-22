@@ -1,0 +1,40 @@
+﻿@model List<MVC.Models.EmployeesView>
+
+@{
+    ViewBag.Title = "Employees page";
+}
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Lastname</th>
+            <th scope="col">Name</th>
+            <th scope="col">Hire date</th>
+            <th scope="col">Seniority</th>
+            <th scope="col">Birthday</th>
+            <th scope="col">Phone</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.Id</td>
+                <td>@employee.Lastname</td>
+                <td>@employee.FirstName</td>
+                <td>@employee.HireDate.ToString("dd'/'MM'/'yyyy")</td>
+                <td>@employee.Seniority</td>
+                <td>@employee.BirthDate.ToString("dd'/'MM'/'yyyy")</td>
+                <td>@employee.HomePhone</td>
+                <td>
+                    <a href="@Url.Action("Details", new { id = employee.Id })" class="text-primary">
+                        <i class="fas fa-info icon"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

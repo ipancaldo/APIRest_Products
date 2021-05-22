@@ -1,0 +1,14 @@
+@import url('styles.css');
+.icon {
+    font-size: 72px;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+}
+
+.icon:hover {
+    transform: scale(1.5) rotate(360deg);
+    transition-duration: 400ms;
+    /* opacity: 0.4; */
+    transition-timing-function: ease-out;
+    filter: grayscale(80);
+}

@@ -1,0 +1,22 @@
+﻿<section class="container">
+    <h2 class="text-center text-danger errror-oops">Oops!</h2>
+    <br />
+    <div class="row mt-2">
+        <div class="col-lg-4 col-12">
+            <div class="row align-items-center text-center">
+                <i class="fas fa-bug error-icono"></i>
+            </div>
+        </div>
+        <div class="col-lg-8 col-md-6 col-12">
+            <div class="row align-items-center">
+                @{
+                    string message = (string)TempData["MensajeError"];
+                    <label class="error-mensaje">@message</label>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+
+

@@ -1,0 +1,59 @@
+@import url('styles.css');
+
+/*Modifican íconos*/
+.icon {
+    font-size: 15px;
+    transition-duration: 50ms;
+    transition-timing-function: linear;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+    transition-duration: 400ms;
+    /*opacity: 0.4;*/ 
+    transition-timing-function: ease-out;
+    filter: grayscale(80);
+}
+
+
+/*Modifican página de error*/
+.errror-oops{
+    font-size: 70px;
+}
+
+.error-icono {
+    font-size: 120px;
+    color: darkred;
+}
+
+.error-mensaje{
+    font-size: 30px;
+}
+
+
+/*Modifican formularios*/
+.formulario {
+    width: 700px;
+}
+
+.formulario-panel {
+    width: 500px;
+}
+
+#txtPrice {
+    width: 100px;
+}
+
+.txtProduct {
+    width: 250px;
+}
+
+/*Modifican API Pública DailyCat y DailyDog*/
+.imgApiContainer {
+    width: 400px;
+}
+
+.imgApi{
+    width: 100%;
+    height: auto;
+}

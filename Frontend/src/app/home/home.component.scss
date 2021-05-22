@@ -1,0 +1,37 @@
+.textoEncabezado{
+    font-size: 30px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 50px;
+    transition-duration: 50ms;
+    transition-timing-function: linear;
+    margin-right: 50px;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+    transition-duration: 400ms;
+    transition-timing-function: ease-out;
+    filter: grayscale(80);
+}
+
+.banner {
+    background: #212529;
+    height: auto;
+  }
+
+.header {
+    background: #21374d;
+    height: auto;
+  }

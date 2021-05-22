@@ -1,0 +1,59 @@
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" routerLink="/">  </a>
+    <a class="navbar-brand" routerLink="/">Angular</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/">Home<span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/productos">Productos<span class="sr-only"></span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<br>
+<br>
+<br>
+
+
+<router-outlet></router-outlet>
+
+<!-- FOTTER -->
+<footer class="container-fluid mt-5 footer">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-lg-3 col-md-3 col-12 text-center">
+      <address>
+        <p>Pje. Ingenieros 5394</p>
+        <p>Santa Fe, Capital</p>
+      </address>
+      <p>Tel: 155425279</p>
+    
+    </div>
+    <div class="col-lg-3 col-md-3 col-12 text-center">
+      <p>Angular - Consumo de API</p>
+      <p>Pancaldo, Ignacio Gabriel</p>
+    </div>
+    <div class="col-4">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.6037584540013!2d-60.70491928534927!3d-31.617315613162102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9deb8891c77%3A0xc66820c7a071798e!2sPje.%20Ingenieros%205394%2C%20S3002%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1598775571889!5m2!1ses!2sar"
+        width="100%"
+        height="200px"
+        frameborder="0"
+        style="border: 0"
+        allowfullscreen=""
+        aria-hidden="false"
+        class="mt-1"
+        tabindex="0"
+      ></iframe>
+    </div>
+  </div>
+</footer>
+
+

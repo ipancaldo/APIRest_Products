@@ -1,0 +1,45 @@
+﻿@model List<MVC.Models.ProductsView>
+
+@{
+    ViewBag.Title = "Products page";
+}
+
+<section>
+    <div>
+        @Html.ActionLink("Add new product", "Insert", "Products", 0, new { @class = "btn btn-primary" })
+    </div>    
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">ID</ th>
+                <th scope="col">Producto</th>
+                <th scope="col">Cantidad por unidad</th>
+                <th scope="col">Precio</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.QuantityPerUnit</td>
+                    <td>@product.Price.ToString("$ 0.00")</td>
+                    <td>
+                        <a href="@Url.Action("Edit", new { id = product.Id })" class="text-primary">
+                            <i class="fas fa-edit icon"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Delete", new { id = product.Id })" class="text-danger" onclick="return confirm('Are you sure you want to delete this product?')">
+                            <i class="far fa-trash-alt icon"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>
