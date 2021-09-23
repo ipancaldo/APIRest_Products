@@ -1,5 +1,5 @@
-# CRUD_Products
-This is a CRUD website about products.
+# APIRest_Products
+This is a APIRest_Products website about products.
 
 It runs an API Restful in the backend and for the frontend a website made in Angular.
 
