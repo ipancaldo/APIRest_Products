@@ -13,3 +13,18 @@ C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\obj\Debug
 C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\obj\Debug\Data.csproj.CopyComplete
 C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\obj\Debug\Data.dll
 C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Data\obj\Debug\Data.pdb
+D:\Repos\APIRest_Products\API backend\Data\bin\Debug\Data.dll.config
+D:\Repos\APIRest_Products\API backend\Data\bin\Debug\Data.dll
+D:\Repos\APIRest_Products\API backend\Data\bin\Debug\Data.pdb
+D:\Repos\APIRest_Products\API backend\Data\bin\Debug\Entities.dll
+D:\Repos\APIRest_Products\API backend\Data\bin\Debug\EntityFramework.dll
+D:\Repos\APIRest_Products\API backend\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Repos\APIRest_Products\API backend\Data\bin\Debug\Entities.pdb
+D:\Repos\APIRest_Products\API backend\Data\bin\Debug\Entities.dll.config
+D:\Repos\APIRest_Products\API backend\Data\bin\Debug\EntityFramework.xml
+D:\Repos\APIRest_Products\API backend\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Repos\APIRest_Products\API backend\Data\obj\Debug\Data.csprojAssemblyReference.cache
+D:\Repos\APIRest_Products\API backend\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+D:\Repos\APIRest_Products\API backend\Data\obj\Debug\Data.csproj.CopyComplete
+D:\Repos\APIRest_Products\API backend\Data\obj\Debug\Data.dll
+D:\Repos\APIRest_Products\API backend\Data\obj\Debug\Data.pdb

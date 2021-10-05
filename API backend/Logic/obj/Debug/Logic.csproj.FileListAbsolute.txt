@@ -18,3 +18,23 @@ C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Logic\obj\Debu
 C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Logic\obj\Debug\Logic.csproj.CopyComplete
 C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Logic\obj\Debug\Logic.dll
 C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\9.Angular\TP\TP9_API\Logic\obj\Debug\Logic.pdb
+D:\Repos\APIRest_Products\API backend\Logic\bin\Debug\Logic.dll.config
+D:\Repos\APIRest_Products\API backend\Logic\bin\Debug\Logic.dll
+D:\Repos\APIRest_Products\API backend\Logic\bin\Debug\Logic.pdb
+D:\Repos\APIRest_Products\API backend\Logic\bin\Debug\Data.dll
+D:\Repos\APIRest_Products\API backend\Logic\bin\Debug\Entities.dll
+D:\Repos\APIRest_Products\API backend\Logic\bin\Debug\EntityFramework.dll
+D:\Repos\APIRest_Products\API backend\Logic\bin\Debug\EntityFramework.SqlServer.dll
+D:\Repos\APIRest_Products\API backend\Logic\bin\Debug\Newtonsoft.Json.dll
+D:\Repos\APIRest_Products\API backend\Logic\bin\Debug\Data.pdb
+D:\Repos\APIRest_Products\API backend\Logic\bin\Debug\Data.dll.config
+D:\Repos\APIRest_Products\API backend\Logic\bin\Debug\Entities.pdb
+D:\Repos\APIRest_Products\API backend\Logic\bin\Debug\Entities.dll.config
+D:\Repos\APIRest_Products\API backend\Logic\bin\Debug\EntityFramework.xml
+D:\Repos\APIRest_Products\API backend\Logic\bin\Debug\EntityFramework.SqlServer.xml
+D:\Repos\APIRest_Products\API backend\Logic\bin\Debug\Newtonsoft.Json.xml
+D:\Repos\APIRest_Products\API backend\Logic\obj\Debug\Logic.csprojAssemblyReference.cache
+D:\Repos\APIRest_Products\API backend\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
+D:\Repos\APIRest_Products\API backend\Logic\obj\Debug\Logic.csproj.CopyComplete
+D:\Repos\APIRest_Products\API backend\Logic\obj\Debug\Logic.dll
+D:\Repos\APIRest_Products\API backend\Logic\obj\Debug\Logic.pdb
